@@ -44,14 +44,15 @@ The pipeline generates trained models and embedding vectors capable of:
 
 ## ⚙️ Setup & Installation
 1. Clone the Repository
+   
 git clone [https://github.com/faranahmad123/Product-Matching-Across-Platforms.git](https://github.com/faranahmad123/Product-Matching-Across-Platforms.git)
 cd Product-Matching-Across-Platforms
 
-2. Install Dependencies
+3. Install Dependencies
 Bash
 pip install -r requirements.txt
 
-3. Run the Notebook
+4. Run the Notebook
 Open Product_Matching.ipynb in Jupyter Notebook or Google Colab to see the training pipeline and inference examples.
 
 ## 📬 Contact
@@ -74,6 +75,7 @@ Product-Matching-Across-Platforms/
 ├── models/                   ← Saved models (.h5/.keras) and .npy weights
 ├── outputs/                  ← Performance plots & summary CSVs
 └── embeddings/               ← (See "Download Data" section below)
+
 
 
 
