@@ -44,7 +44,7 @@ The pipeline generates trained models and embedding vectors capable of:
 
 ## ⚙️ Setup & Installation
 1. Clone the Repository
-   
+
 git clone [https://github.com/faranahmad123/Product-Matching-Across-Platforms.git](https://github.com/faranahmad123/Product-Matching-Across-Platforms.git)
 cd Product-Matching-Across-Platforms
 
@@ -75,6 +75,7 @@ Product-Matching-Across-Platforms/
 ├── models/                   ← Saved models (.h5/.keras) and .npy weights
 ├── outputs/                  ← Performance plots & summary CSVs
 └── embeddings/               ← (See "Download Data" section below)
+
 
 
 
