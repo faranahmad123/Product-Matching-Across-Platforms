@@ -1,8 +1,5 @@
 # Product Matching Across Platforms using Siamese Networks
 
-[![Watch Demo](https://img.shields.io/badge/Watch-Demo_Video-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/posts/faran02_nlp-ai-productmatching-activity-7405004703287246849-QbcG)
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect-Faran_Ahmad-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/faran02)
-
 ## 📌 Project Overview
 To build a high-accuracy real-time matcher, I implemented and evaluated multiple deep learning pipelines powered by three embedding techniques: **Word2Vec, FastText, and GloVe**.
 
@@ -26,19 +23,6 @@ The pipeline generates trained models and embedding vectors capable of:
 * ✅ Text-based product search
 * ✅ Matching of unseen/new product descriptions
 
----
-
-## 📂 Repository Structure
-
-```text
-Product-Matching-Across-Platforms/
-│── README.md
-│── requirements.txt
-│── Product_Matching.ipynb    ← Main Kaggle notebook for training & inference
-│
-├── models/                   ← Saved models (.h5/.keras) and .npy weights
-├── outputs/                  ← Performance plots & summary CSVs
-└── embeddings/               ← (See "Download Data" section below)
 ## 📥 Download Large Files
 
 [**Click Here to Download Models & Embeddings (Google Drive)**](https://drive.google.com/drive/folders/1JXUOQTgNgaFKlc4NgFu0-oAkZqyX9FQ8?usp=drive_link)
@@ -58,12 +42,10 @@ Product-Matching-Across-Platforms/
 | FastText | *[See Notebook]* | *[See Notebook]* | Evaluated |
 | GloVe | *[See Notebook]* | *[See Notebook]* | Evaluated |
 
----
-
 ## ⚙️ Setup & Installation
 
 ### 1. Clone the Repository
-```bash
+
 git clone [https://github.com/faranahmad123/Product-Matching-Across-Platforms.git](https://github.com/faranahmad123/Product-Matching-Across-Platforms.git)
 cd Product-Matching-Across-Platforms
 
@@ -80,6 +62,20 @@ This project strengthened my skills in sequence modeling, vector-space represent
 * **Developer:** Faran Ahmad
 * **LinkedIn:** [Connect with me](https://www.linkedin.com/in/faran02)
 * **Live Demo:** [Watch on LinkedIn](https://www.linkedin.com/posts/faran02_nlp-ai-productmatching-activity-7405004703287246849-QbcG)
+
+---
+
+## 📂 Repository Structure
+
+```text
+Product-Matching-Across-Platforms/
+│── README.md
+│── requirements.txt
+│── Product_Matching.ipynb    ← Main Kaggle notebook for training & inference
+│
+├── models/                   ← Saved models (.h5/.keras) and .npy weights
+├── outputs/                  ← Performance plots & summary CSVs
+└── embeddings/               ← (See "Download Data" section below)
 
 
 
