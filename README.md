@@ -1,5 +1,8 @@
 # Product Matching Across Platforms using Siamese Networks
 
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo_Video-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/posts/faran02_nlp-ai-productmatching-activity-7405004703287246849-QbcG)
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect-Faran_Ahmad-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/faran02)
+
 ## 📌 Project Overview
 To build a high-accuracy real-time matcher, I implemented and evaluated multiple deep learning pipelines powered by three embedding techniques: **Word2Vec, FastText, and GloVe**.
 
@@ -33,6 +36,6 @@ Product-Matching-Across-Platforms/
 │── requirements.txt
 │── Product_Matching.ipynb    ← Main Kaggle notebook for training & inference
 │
-├── models/                   ← Saved model architectures (.h5/.keras)
+├── models/                   ← Saved models (.h5/.keras) and .npy weights
 ├── outputs/                  ← Performance plots & summary CSVs
 └── embeddings/               ← (See "Download Data" section below)
